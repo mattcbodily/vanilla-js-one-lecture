@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    background-color: whitesmoke;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: whitesmoke;
+}
+
+.dark-theme-body {
+    background-color: #1E1E1E;
+}
+
+.dark-theme-username {
+    color: white;
+}
+
+.counter-buttons {
+    height: 55px;
+    width: 55px;
+    font-size: 35px;
+    border-radius: 50%;
+    border: none;
+}
+
+.dark-theme-input-container {
+    color: white;
+}
+
+.dark-theme-input {
+    background-color: #1E1E1E;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#theme-button {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+#counter-container {
+    height: 275px;
+    width: 300px;    
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #353535;
+}
+
+#counter {
+    font-size: 40px;
+    color: white;
+}
+
+#decrement {
+    background-color: #FF3333;
+    color: white;
+}
+
+#clear {
+    background-color: #D3D3D3;
+    color: white;
+}
+
+#increment {
+    background-color: #46FF33;
+    color: white;
+}
+
+#input-container {
+    margin-top: 20px;
+}
